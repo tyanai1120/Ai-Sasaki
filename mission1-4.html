@@ -1,0 +1,19 @@
+<html>
+<title>1-4</title>
+<meta charset="UTF-8">
+<body>
+<form method="post" action="mission1-4.html">
+<p>
+<input type="text" name="コメント" value="コメント"></p><br>
+<p>
+<input type="submit" value="送信">
+</p>
+</form>
+</body>
+</html>
+
+
+<?php
+$comment = $_POST["コメント"];
+echo "ご入力ありがとうございます。"data('y/m/d H:i:s')"に"$comment"を受け付けました";
+?>
